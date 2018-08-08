@@ -2,7 +2,7 @@ def first_steps
   # Write a loop that outputs "Right foot back", "Left foot back",
   # "Right foot back", and "Stop", with sleep after each
 number = 0
-while number >= 1
+while number < 1
   puts "Right foot back"
       sleep(0.5)
   puts "Left foot back"
@@ -11,7 +11,7 @@ while number >= 1
         sleep(0.5)
   puts "Stop"
         sleep(1)
-
+end
 end
 
 first_steps
