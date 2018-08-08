@@ -37,8 +37,9 @@ def how_many_steps?
 steps=0
 
 loop do 
+    steps=steps+1
   puts steps
-  steps=steps+1
+
 
 if steps%2==0
   puts "Left"
@@ -48,6 +49,7 @@ end
 sleep(0.5)
 break
 end
+
 end
 
 def break_dance
