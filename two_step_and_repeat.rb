@@ -20,7 +20,7 @@ def a_few_more_steps
   first_steps
   sleep(0.5)
   
-  while 
+  # while 
 
 end
 
