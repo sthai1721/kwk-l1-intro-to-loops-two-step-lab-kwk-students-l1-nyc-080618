@@ -10,7 +10,6 @@ loop do
         sleep(0.5)
   puts "Stop"
         sleep(1)
-  break
 end
 end
 
@@ -29,7 +28,6 @@ def a_few_more_steps
     sleep(0.5)
     puts "Turn"
     sleep(1)
-    break
 end
 end
 
@@ -47,7 +45,6 @@ else
   puts "Right"
 end
 sleep(0.5)
-break
 end
 
 end
