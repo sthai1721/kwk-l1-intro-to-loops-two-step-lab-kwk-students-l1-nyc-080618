@@ -55,17 +55,19 @@ def break_dance
 steps=0
 
 loop do 
-steps=steps+1
-puts steps
-if steps ==6
-  break
-elsif steps%2==0
+    steps=steps+1
+  puts steps
+
+
+if steps%2==0
   puts "Left"
 else 
   puts "Right"
 end
 sleep(0.5)
-
+if steps == 6
+  break
+end
 end
 end
 
