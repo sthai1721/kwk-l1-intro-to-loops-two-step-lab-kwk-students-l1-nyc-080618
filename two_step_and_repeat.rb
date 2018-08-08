@@ -63,8 +63,8 @@ if steps%2==0
   puts "Left"
 else 
   puts "Right"
-end
 sleep(0.5)
+end
 if steps == 6
   break
 end
