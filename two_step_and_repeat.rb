@@ -17,7 +17,6 @@ end
   # Write a loop that outputs the first two sets of steps in the Two-Step
 
 def a_few_more_steps
-  first_steps
   sleep(0.5)
   loop do
     puts "Right foot steps right and back"
@@ -28,7 +27,6 @@ def a_few_more_steps
     sleep(0.5)
     puts "Turn"
     sleep(1)
-    break
 end
 end
 
